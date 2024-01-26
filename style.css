@@ -1,0 +1,93 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-color: rgb(123, 195, 255);
+}
+
+.container{
+    background-color: rgb(123, 195, 255);
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    z-index: 1000;
+    padding: 25px 0;
+    height: 40vh;
+}
+
+h1{
+    text-align: center;
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 70px;
+    margin-bottom: 20px;
+    color: rgb(93, 0, 169);
+    width: 100%;
+}
+
+.main{
+    text-align: center;
+    width: 100%;
+    top: 130px;
+}
+
+.main div{
+    display: inline-block;
+    background-color: rgb(0, 55, 92);
+    padding: 8px 12px;
+    margin: 20px 3px;
+    color: white;
+    cursor: pointer;
+    font-family: 'Roboto';
+    font-weight: 600;
+}
+
+.main div:hover{
+    box-shadow: 1px 1px 3px black;
+}
+
+.alphabets p img{
+    margin-left: 30%;
+    width: 150px;
+}
+
+.letters > span{
+    font-size: 30px;
+}
+
+.letters{
+    position: relative;
+    top: 50px;
+    color: black;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+.alphabets div{
+    margin-bottom: 20px;
+    text-align: center;
+    font-size: 120px;
+    font-family: 'Roboto';
+    font-weight: 700;
+    background-color: rgb(34, 155, 254);
+    padding: 50px 20px;
+    width: 60%;
+    height: 30vh;
+    vertical-align: middle;
+    margin-bottom: 200px;
+    margin: 40px auto;
+}
+
+.alphabetI{
+    width: 120px !important;
+}
+
+#z{
+    margin-bottom: 300px;
+}
